@@ -17,3 +17,11 @@ HTML, CSS and JavaScript.
 
 ## Note
 The contact form only checks the entered details. It does not send an email.
+## Features
+
+- Responsive design
+- Dark and light mode
+- About Me section
+- Skills section
+- Projects section
+- Contact form
