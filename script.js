@@ -58,3 +58,9 @@ contactForm.onsubmit = function (event) {
 
 // Show current year
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+// Display a welcome message in the browser console
+console.log("Welcome to Arth Suthar's Portfolio!");
+
+// Display current year in the footer
+document.getElementById("year").innerHTML = new Date().getFullYear();
