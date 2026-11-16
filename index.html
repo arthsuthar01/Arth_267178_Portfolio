@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arth Suthar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#home">arth<span>.</span></a>
+
+            <button id="menuButton" class="menu-button">☰</button>
+
+            <div id="menu" class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="themeButton" class="theme-button">☼</button>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home" class="hero">
+        <div>
+            <p class="small-title">HELLO, I'M</p>
+            <h1>Arth <span>Suthar</span></h1>
+            <h2>Computer Science Student & Web Development Learner</h2>
+            <p class="description">
+                I enjoy learning how websites work and creating clean,
+                useful and responsive web experiences.
+            </p>
+            <a class="button" href="#projects">View My Work</a>
+            <a class="button second-button" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="profile-card">
+            <div class="avatar">AS</div>
+            <p class="small-title">CURRENTLY LEARNING</p>
+            <h3>Web Development</h3>
+            <p>HTML · CSS · JavaScript</p>
+            <p class="status">● Open to learning opportunities</p>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section alternate">
+        <p class="small-title">GET TO KNOW ME</p>
+        <h2 class="heading">About Me</h2>
+        <p class="about-text">
+            I'm Arth, a Computer Science student at JG University.
+            I have completed a Diploma in Information Technology and
+            am continuing my learning in computer science. I like
+            exploring web technologies, improving my design skills
+            and building small projects.
+        </p>
+
+        <div class="details">
+            <div><small>Education</small><b>B.Tech / CSE (D2D)</b></div>
+            <div><small>University</small><b>JG University</b></div>
+            <div><small>Background</small><b>Diploma in IT</b></div>
+            <div><small>Interest</small><b>Web Development</b></div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section">
+        <p class="small-title">WHAT I WORK WITH</p>
+        <h2 class="heading">My Skills</h2>
+        <p class="description">Technologies and tools I have studied or practised.</p>
+
+        <div class="cards">
+            <div class="card"><div class="icon">🌐</div><h3>HTML</h3><p>Page structure and semantic elements</p></div>
+            <div class="card"><div class="icon">🎨</div><h3>CSS</h3><p>Styling, layouts and responsive design</p></div>
+            <div class="card"><div class="icon">⚡</div><h3>JavaScript</h3><p>DOM and interactive web features</p></div>
+            <div class="card"><div class="icon">⚛️</div><h3>React</h3><p>Basics of component-based interfaces</p></div>
+            <div class="card"><div class="icon">💻</div><h3>C# / .NET</h3><p>Programming and web development basics</p></div>
+            <div class="card"><div class="icon">🛠️</div><h3>VS Code</h3><p>Code editing and project development</p></div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section alternate">
+        <p class="small-title">SOME THINGS I'VE WORKED ON</p>
+        <h2 class="heading">My Projects</h2>
+        <p class="description">A few academic project ideas and practice projects.</p>
+
+        <div class="cards project-cards">
+            <div class="card">
+                <p class="small-title">01</p>
+                <h3>Digital Legacy</h3>
+                <p>A concept for securely organising important digital asset information and planning an authorised handover to a nominee.</p>
+                <div class="tags">HTML &nbsp; CSS &nbsp; JavaScript</div>
+            </div>
+            <div class="card">
+                <p class="small-title">02</p>
+                <h3>Employee Management System</h3>
+                <p>A practice project concept for keeping employee details organised and making basic record management easier.</p>
+                <div class="tags">Programming &nbsp; Web Basics</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section">
+        <p class="small-title">LET'S CONNECT</p>
+        <h2 class="heading">Contact Me</h2>
+        <p class="description">Have a question or want to discuss a project? Send me a message.</p>
+
+        <div class="contact-area">
+            <div>
+                <h3>Get in touch</h3>
+                <p class="description">I'm happy to connect with students, developers and people interested in technology.</p>
+                <p class="note">This form checks your details in the browser. It does not send an email.</p>
+            </div>
+
+            <form id="contactForm">
+                <label>Your name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label>Email address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label>Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+                <button class="button" type="submit">Send Message</button>
+                <p id="formMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Arth Suthar. Made with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
