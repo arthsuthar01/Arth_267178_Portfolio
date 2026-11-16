@@ -387,3 +387,23 @@ footer a {
         padding-bottom: 70px;
     }
 }
+/* Improved hover effects and responsive design */
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #65d6c4;
+}
+
+.button:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #65d6c4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
